@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibraries", "SharedLibraries\SharedLibraries.csproj", "{720E1CFB-A177-49D2-9AE5-483CE2C05B8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions", "AzureFunctions\AzureFunctions.csproj", "{8CE98B31-6BB6-42D8-956A-55AEDFE41D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{720E1CFB-A177-49D2-9AE5-483CE2C05B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{720E1CFB-A177-49D2-9AE5-483CE2C05B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{720E1CFB-A177-49D2-9AE5-483CE2C05B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE98B31-6BB6-42D8-956A-55AEDFE41D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE98B31-6BB6-42D8-956A-55AEDFE41D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE98B31-6BB6-42D8-956A-55AEDFE41D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE98B31-6BB6-42D8-956A-55AEDFE41D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
