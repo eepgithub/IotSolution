@@ -34,8 +34,7 @@ namespace SharedLibraries.Services
         // Device Client = IoT Service
         public static async Task SendMessageAsync(DeviceClient deviceClient)
         {
-            while(true)
-            {
+           
                 var data = new TemperatureModel
                 {
                     Temperature = rnd.Next(20, 30),
@@ -50,11 +49,7 @@ namespace SharedLibraries.Services
                 var payload = new Microsoft.Azure.Devices.Client.Message(Encoding.UTF8.GetBytes(json));
                 await deviceClient.SendEventAsync(payload);
 
-                Console.WriteLine($"Message sent: {json}");
-
-
-
-                await Task.Delay(10 * 1000);
+                
             }
         }
 
